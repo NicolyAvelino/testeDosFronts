@@ -1,2 +1,2 @@
 # testeDosFronts
-Aplicação que fará uma simulação de investimento utilizando juros composto. 
+Aplicação para fazer uma simulação de investimento utilizando juros composto. 
