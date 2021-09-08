@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+/* Header ================================================================= */
+header {
+  padding: 20px;
+  background: #010214;
+  height: 15vh;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+/* FORM ================================================================= */
+body {
+  background: #f1f1fa;
+}
+form {
+  padding: 30px;
+  width: 40vw;
+  margin: 0 auto;
+  background: #fff;
+}
+div {
+  width: 35vw;
+  margin: 0 auto;
+}
+.simular h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 18px;
+}
+input {
+  padding: 7px;
+  margin: 9px 0;
+  width: 100%;
+  border: 1px solid #010214;
+}
+input[type="submit"] {
+  width: 20vw;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  background: #010214;
+  color: #fff;
+}
+input[type="submit"]:hover {
+  background: #030424;
+}
+.botao {
+  text-align: center;
+}
+/* FINTECH2 ============================== */
+.texto {
+  width: 25vw;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+.fintech2 {
+  height: 50vh;
+}
+.simulacao {
+    margin: 15% auto;
+}
+@media screen and (max-width: 650px) {
+  /* FORM ================================================================= */
+  div {
+    width: 60vw;
+  }
+  form {
+    width: 75vw;
+  }  
+  input[type="submit"] {
+    width: 40vw;
+  }
+  /* FINTECH2 ============================== */
+  .texto {
+    width: 45vw;
+    margin-bottom: 30px;
+  }
+  .simulacao {
+      margin: 10% auto;
+  }
+}
